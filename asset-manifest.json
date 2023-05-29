@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/carta/static/css/main.eb334b1d.css",
+    "main.js": "/carta/static/js/main.c3549dad.js",
+    "static/js/787.1c3432d3.chunk.js": "/carta/static/js/787.1c3432d3.chunk.js",
+    "static/media/backgroundCarta.jpeg": "/carta/static/media/backgroundCarta.443d770b6da4947bef07.jpeg",
+    "static/media/carta-removebg-preview.png": "/carta/static/media/carta-removebg-preview.0480455205b3fa894e19.png",
+    "static/media/casalNath.jpeg": "/carta/static/media/casalNath.37426ddef1d951694a1a.jpeg",
+    "index.html": "/carta/index.html",
+    "main.eb334b1d.css.map": "/carta/static/css/main.eb334b1d.css.map",
+    "main.c3549dad.js.map": "/carta/static/js/main.c3549dad.js.map",
+    "787.1c3432d3.chunk.js.map": "/carta/static/js/787.1c3432d3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.eb334b1d.css",
+    "static/js/main.c3549dad.js"
+  ]
+}

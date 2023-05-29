@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/carta/static/css/main.3264fbdd.css",
-    "main.js": "/carta/static/js/main.7412a47e.js",
+    "main.css": "/carta/static/css/main.175fc5e2.css",
+    "main.js": "/carta/static/js/main.8390cb83.js",
     "static/js/787.1c3432d3.chunk.js": "/carta/static/js/787.1c3432d3.chunk.js",
     "static/media/backgroundCarta.jpeg": "/carta/static/media/backgroundCarta.443d770b6da4947bef07.jpeg",
     "static/media/carta-removebg-preview.png": "/carta/static/media/carta-removebg-preview.0480455205b3fa894e19.png",
     "static/media/casalNath.jpeg": "/carta/static/media/casalNath.37426ddef1d951694a1a.jpeg",
     "index.html": "/carta/index.html",
-    "main.3264fbdd.css.map": "/carta/static/css/main.3264fbdd.css.map",
-    "main.7412a47e.js.map": "/carta/static/js/main.7412a47e.js.map",
+    "main.175fc5e2.css.map": "/carta/static/css/main.175fc5e2.css.map",
+    "main.8390cb83.js.map": "/carta/static/js/main.8390cb83.js.map",
     "787.1c3432d3.chunk.js.map": "/carta/static/js/787.1c3432d3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3264fbdd.css",
-    "static/js/main.7412a47e.js"
+    "static/css/main.175fc5e2.css",
+    "static/js/main.8390cb83.js"
   ]
 }

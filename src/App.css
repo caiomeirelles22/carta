@@ -1,0 +1,31 @@
+.display_none {
+    display: none;
+  }
+  
+  
+
+  .posicionamentoComGrid{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1vh 94vh 5vh ;
+    align-items: end;
+    justify-content: center;
+    background-image: url(/src/assets/fotoCasal/casalNath.jpeg);
+    background-position: center;
+    opacity: 0.9;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+  }
+
+  .mensagem {
+    grid-column: 1;
+    grid-row: span 2;
+    height: 100%;
+  }
+  
+  .cartaFechada {
+    grid-column: 1;
+    grid-row: 2;
+      }
+

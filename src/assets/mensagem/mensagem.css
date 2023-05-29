@@ -1,0 +1,32 @@
+.texto {
+    display: block;
+    padding: 15px;
+    font-family: "Monotype Corsiva", "Lucida Handwriting", cursive;
+    color: black;
+    font-weight: 800;
+    text-align: justify;
+    font-size: 1.216em;
+    animation: aparecer 3s ease forwards;
+    opacity: 0;
+}
+
+@keyframes aparecer {
+    0% {
+        opacity: 0;
+        transform: translateY(-1000px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+.carta {
+    background-image: url(/src/assets/backgroundCarta/backgroundCarta.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}

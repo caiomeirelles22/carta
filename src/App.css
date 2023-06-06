@@ -1,31 +1,34 @@
 .display_none {
-    display: none;
-  }
-  
-  
+  display: none;
+}
 
-  .posicionamentoComGrid{
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1vh 94vh 5vh ;
-    align-items: end;
-    justify-content: center;
-    background-image: url(/src/assets/fotoCasal/casalNath.jpeg);
-    background-position: center;
-    opacity: 0.9;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100vh;
-  }
+.main {
+  display: grid;
+  grid-template-rows: 0.001% 99.999%;
+}
 
-  .mensagem {
-    grid-column: 1;
-    grid-row: span 2;
-    height: 100%;
-  }
-  
-  .cartaFechada {
-    grid-column: 1;
-    grid-row: 2;
-      }
+.firts {
+  display: grid;
+  height: 100%;
+  grid-row: 2;
+  grid-template-rows: 1fr 1fr 1fr;
+  background-image: url(/src/assets/fotoCasal/casal.jpeg);
+  background-position: center;
+  opacity: 0.9;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
+.firts__carta {
+  grid-row: 3;
+}
+
+.secound {
+  height: 100%;
+  background-image: url(/src/assets/backgroundCarta/backgroundCarta.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  opacity: 0.8;
+}

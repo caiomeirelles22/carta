@@ -1,6 +1,6 @@
 import React from 'react'
 import './carta.css'
-import CartFechada from './carta-removebg-preview.png'
+import CartFechada from './envelope.jpg'
 export default function CartaFec() {
   return (
     <div>

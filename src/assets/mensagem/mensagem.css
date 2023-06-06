@@ -5,7 +5,7 @@
     color: black;
     font-weight: 800;
     text-align: justify;
-    font-size: 1.216em;
+    font-size: 1.5em;
     animation: aparecer 3s ease forwards;
     opacity: 0;
 }
@@ -19,14 +19,4 @@
         opacity: 1;
         transform: translateY(0);
     }
-}
-
-
-.carta {
-    background-image: url(/src/assets/backgroundCarta/backgroundCarta.jpeg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100%;
-    width: 100%;
 }

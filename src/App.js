@@ -14,15 +14,24 @@ function App() {
     segund.classList.remove('display_none')
   }
 
+  const atualizarFirst = () =>{
+    const firts = document.getElementById('firts')
+    firts.classList.remove('first')
+    firts.classList.add('firts2')
+  }
+
+  
+
   const clicar = () => {
     sumirCarta()
     aparecer()
+    atualizarFirst()
   }
 
   return (
     <div className="App">
       <div className='main'>
-        <div className='firts'>
+        <div id='firts' className='firts'>
           <div onClick={clicar} className='firts__carta' id='firts__carta'><CartaFec></CartaFec></div>
         </div>
 

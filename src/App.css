@@ -5,6 +5,11 @@
 .main {
   display: grid;
   grid-template-rows: 0.001% 99.999%;
+  background-image: url(/src/assets/fotoCasal/casal.jpeg);
+  background-position: center;
+  opacity: 0.9;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .firts {
@@ -12,11 +17,7 @@
   height: 97vh;
   grid-row: 2;
   grid-template-rows: 1fr 1fr 1fr;
-  background-image: url(/src/assets/fotoCasal/casal.jpeg);
-  background-position: center;
-  opacity: 0.9;
-  background-repeat: no-repeat;
-  background-size: cover;
+  
 }
 
 .firts2 {
@@ -44,3 +45,4 @@
   width: 100%;
   opacity: 0.8;
 }
+

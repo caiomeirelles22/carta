@@ -2,8 +2,13 @@ import './App.css';
 import CartaFec from './assets/cartaFechada/cartaFec';
 import MensagemFeita from './assets/mensagem/mensagem';
 import Footer from './assets/footer/footer';
+import { useEffect } from 'react';
+import { useState } from 'react';
 
 function App() {
+
+  const [teste, setTeste] = useState('antes')
+
   const sumirCarta = () => {
     const cartafechada = document.getElementById('firts__carta')
     cartafechada.classList.add('display_none')
@@ -14,19 +19,24 @@ function App() {
     segund.classList.remove('display_none')
   }
 
-  const atualizarFirst = () =>{
+  const atualizarFirst = () => {
     const firts = document.getElementById('firts')
     firts.classList.remove('first')
     firts.classList.add('firts2')
   }
 
-  
-
   const clicar = () => {
-    sumirCarta()
-    aparecer()
-    atualizarFirst()
+    setTeste('depois')
   }
+
+  useEffect(() => {
+    if (teste === 'depois') {
+      sumirCarta()
+      aparecer()
+      atualizarFirst()
+      console.log('imprimi depois')
+    }
+  }, [teste])
 
   return (
     <div className="App">
@@ -38,7 +48,6 @@ function App() {
         <div className='secound display_none' id='secound'>
           <div><MensagemFeita></MensagemFeita></div>
         </div>
-        
       </div>
 
       <div className='footer2'><Footer></Footer></div>

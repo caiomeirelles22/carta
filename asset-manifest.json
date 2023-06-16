@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/carta/static/css/main.b7318a50.css",
-    "main.js": "/carta/static/js/main.094b3977.js",
+    "main.css": "/carta/static/css/main.372bf6cc.css",
+    "main.js": "/carta/static/js/main.db382183.js",
     "static/js/787.896db627.chunk.js": "/carta/static/js/787.896db627.chunk.js",
     "static/media/envelope.jpg": "/carta/static/media/envelope.62843ac059f9e6f6c5b9.jpg",
     "static/media/backgroundCarta.jpeg": "/carta/static/media/backgroundCarta.443d770b6da4947bef07.jpeg",
     "static/media/casal.jpeg": "/carta/static/media/casal.1dd2417cea0a27944c82.jpeg",
     "index.html": "/carta/index.html",
-    "main.b7318a50.css.map": "/carta/static/css/main.b7318a50.css.map",
-    "main.094b3977.js.map": "/carta/static/js/main.094b3977.js.map",
+    "main.372bf6cc.css.map": "/carta/static/css/main.372bf6cc.css.map",
+    "main.db382183.js.map": "/carta/static/js/main.db382183.js.map",
     "787.896db627.chunk.js.map": "/carta/static/js/787.896db627.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b7318a50.css",
-    "static/js/main.094b3977.js"
+    "static/css/main.372bf6cc.css",
+    "static/js/main.db382183.js"
   ]
 }
